@@ -44,7 +44,7 @@ namespace sp
         }
 
 
-        Matrix2D negetive()
+        Matrix2D negative()
         {
             Matrix2D output(_cols, _rows);
             for (uint32_t y = 0; y < output._rows; y++)
