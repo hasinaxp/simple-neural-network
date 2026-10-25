@@ -94,7 +94,7 @@ namespace sp
                 // error = target - output
                 Matrix2D<float> errors(targetOutput.size(), 1);
                 errors._vals = targetOutput;
-                errors = errors.add(_valueMatrices.back().negetive());
+                errors = errors.add(_valueMatrices.back().negative());
                 
 
                 // back propagating the error from output layer to input layer
